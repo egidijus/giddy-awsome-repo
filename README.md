@@ -12,14 +12,15 @@ superservice
 ```
 under super service create any key value 
 
-open http://localhost:8080/ in your browser, and now you will see app env vars.
+open JAVA APP: http://localhost:8081/ in your browser, and now you will see app env vars.
+
 
 when ever you update vars here
 http://localhost:8500/ui/dc1/kv/superservice/
 
 the vars will be updated here
-http://localhost:8080/
+http://localhost:8081/
 
 # Why
-because restarting services is expensive, and this can be used for feature toggling.
+because this allows dynamic on the fly service configuration
 
